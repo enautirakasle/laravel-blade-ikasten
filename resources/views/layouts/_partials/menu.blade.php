@@ -1,10 +1,10 @@
 <header>
     <nav>
         <ul>
-           <li><a href="/">Index</a></li>
-           <li><a href="/about">About</a></li>
-           <li><a href="/contact">Contact</a></li>
-           <li><a href="/services">Services</a></li>
+           <li><a href="{{ route('index') }}">Index</a></li>
+           <li><a href="{{ route('about') }}">About</a></li>
+           <li><a href="{{ route('contact') }}">Contact</a></li>
+           <li><a href="{{ route('services') }}">Services</a></li>
         </ul>
     </nav>
 </header>
